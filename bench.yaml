@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/Cambridge-CIT-ASIC-Tapeouts/butterfly
+  original_url: https://github.com/bojjireddyrishika12-web/butterfly
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_pqc_ntt_butterfly
+  project: PQC NTT Butterfly Core
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 5006e5fd37f796b5150bdd41b71f775b516c9b73
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_pqc_ntt_butterfly
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_pqc_ntt_butterfly
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:17:04Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_pqc_ntt_butterfly
+- upstream/main
